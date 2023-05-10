@@ -1,8 +1,6 @@
 <?php
 
-print_r('hola mundo a Axel');
-print_r('hola mundo a jhonnatan');
-print_r('hola mundo a la concajuana');
+require_once "controllers/Login.php";
 
-print_r('Esto es una prueba');
-
+$plantilla = new Login();
+$plantilla -> ctrPlantilla();

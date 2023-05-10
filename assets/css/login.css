@@ -1,0 +1,10 @@
+#card-login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 560px;
+    transform: translate(-50%, -54%);
+    border-radius: 10PX;
+    padding: 0%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
